@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi"
 
 export default function ProjectCarousel() {
   const addLinks = (project) => {
-    if (project.name ==='Battleship' || project.name === 'Crystal Shop') {
+    if (project.name ==='Battleship' || project.name === 'Crystal Shop' || project.name === 'Message Board') {
       return (
         <div className ='flex'>
           <a href={project.link}><FiExternalLink size={22}/></a>
@@ -31,7 +31,7 @@ export default function ProjectCarousel() {
               <p className='font-semibold'>{project.name}</p>
               {addLinks(project)}
             </div>
-            <p>{project.description}</p>
+              <p>{project.description}</p>
           </div>
       </div>
     )
@@ -42,9 +42,9 @@ export default function ProjectCarousel() {
   return (
   <div className>
     <div class="flex justify-center py-10">
-      <div className='flex flex-col w-2/3 shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-tr from-blue-200 to-white'>
+      <div className='flex flex-col w-3/4 shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-tr from-blue-100 to-red-100'>
       <div class="flex justify-center">
-        <h1 className='font-semibold text-xl'>My Projects</h1>
+        <h1 className='font-semibold text-xl'>Some of my projects so far</h1>
       </div>
         <div className="carousel h-80 w-full">
           {createItemsForCarousel()}

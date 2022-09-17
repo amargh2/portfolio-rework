@@ -17,7 +17,7 @@ const projects = [
     gitHubLink:'https://github.com/amargh2/memory-game',
     imgURL: './memory-game.jpg',
     description:'A memory game that challenges you to click each picture only once. This was my first React project, so it is fairly simple, but it was great practice with hooks and functional components. I picked pictures of some of the cities I have been lucky enough to visit!',
-    id:3
+    id:5
   },
   { name: 'To-Do-List',
     gitHubLink:'https://github.com/amargh2/to-do-list',
@@ -29,13 +29,20 @@ const projects = [
     gitHubLink:'https://github.com/amargh2/restaurant-page',
     imgURL: './restaurantpic.png',
     description: 'This is a single page application/restaurant page built in vanilla JS and handwritten vanilla CSS with all elements generated via DOM manipulation! My first single page application in JavaScript!',
-    id:5
+    id:7
   },
   { name: 'Weather App',
     gitHubLink:'https://github.com/amargh2/weather-app',
     imgURL: './weather.jpg',
     description:'Proof of concept that gets weather using API calls and promises and displays a funny gif with a second API call to separate service based on the weather data JSON response. I am currently planning a better looking and more interactive rework in React.',
     id:6
+  },
+  { name: 'Message Board',
+    gitHubLink:'https://github.com/amargh2/message-board',
+    link:'https://mighty-retreat-80544.herokuapp.com/',
+    imgURL: './messageboard.png',
+    description:'Very simple app I made to learn basic Express concepts. Handles GETs and POSTs and displays user provided messages on the main page.',
+    id:3
   }
 ]
 
