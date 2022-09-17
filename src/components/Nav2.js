@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export default function Nav() {
   return (
-    <div class="flex align-middle justify-center py-2 bg-gradient-to-br from-cyan-200 to-red-200">
+    <div class="flex align-middle justify-center py-2 ">
       <div class="flex justify-center align-middle">
         <div className="flex justify-center rounded-md shadow-sm">
           <Link to='/about'>
