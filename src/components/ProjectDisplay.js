@@ -36,8 +36,10 @@ const ProjectDisplay = () => {
   
   return (
       <div className="flex justify-center">
-        <div className="grid justify-center py-4 p-4 grid-cols-1 gap-4 lg:grid-cols-3">
-            {processedProjects}
+        <div className="flex justify-center w-3/4">
+          <div className="grid justify-center py-4 grid-cols-1 gap-4 lg:grid-cols-3">
+              {processedProjects}
+          </div>
         </div>
       </div>
   )
