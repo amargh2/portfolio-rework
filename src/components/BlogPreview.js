@@ -7,8 +7,8 @@ function classNames(...classes) {
 export default function BlogPreview() {
   return (
     <div class="flex justify-center rounded">
-      <div className="shadow-lg  rounded-lg bg-gradient-to-br to-red-100 from-blue-200 w-3/4 p-10">
-        <div className="relative mx-auto max-w-lg divide-y-2 divide-gray-200 lg:max-w-7xl">
+      <div className="shadow-lg flex rounded-lg bg-gradient-to-br to-red-100 from-blue-200 p-10">
+        <div className="flex mx-auto divide-y-2 divide-gray-200">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the Blog</h2>
             <p className="mt-3 text-xl text-gray-500 sm:mt-4">

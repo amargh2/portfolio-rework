@@ -41,8 +41,8 @@ export default function ProjectCarousel() {
   
   return (
   <div className>
-    <div class="flex justify-center py-10">
-      <div className='flex flex-col w-3/4 shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-tr from-blue-100 to-red-100'>
+    <div class="flex justify-center p-10">
+      <div className='flex flex-col w-full shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-tr from-blue-100 to-red-100'>
       <div class="flex justify-center">
         <h1 className='font-semibold text-xl'>Some of my projects so far</h1>
       </div>
