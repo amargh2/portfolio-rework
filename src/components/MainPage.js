@@ -8,17 +8,15 @@ import BlogPreview from './BlogPreview'
 export default function MainPage() {
   return(
     <div class="bg-cirrus">
-      <div className="flex gap-4 justify-center items-center flex-col px-10">
-        <Nav/>
-        <div className='flex flex-col gap-4 lg:flex-row'>
-          <AboutMe/>
-          <div class="hidden lg:flex"><SkillsPanelWide/></div>
-        </div>
-        <div class="flex justify-center"><ProjectCarousel/></div>
+      <div className="md:grid grid-cols-10 gap-5 flex flex-col mx-20">
+        <div className='col-span-full'><Nav/></div>
+        <div class="col-start-2 col-span-5"><AboutMe/></div>
+        <div class="hidden lg:flex col-span-3"><SkillsPanelWide/></div>
         <div className='lg:hidden flex'><SkillsPanelWide/></div>
+        <div class="col-start-1 col-span-10 md:flex"><ProjectCarousel/></div>
+        </div>
         <Footer/>
       </div>
-    </div>
     
   )
 }

@@ -9,11 +9,9 @@ import {FcLinux} from 'react-icons/fc'
 import { SiMongodb } from "react-icons/si"
 const SkillsPanelWide = () => {
   return (
-          <div className="flex justify-center p-2">
-            <div class="flex flex-col justify-center bg-gradient-to-br from-blue-200 to-white rounded-lg p-2">
-              <div class="flex justify-center">
-                <h1 className='prose-lg font-bold'>My Skills</h1>
-              </div>
+          <div className="flex justify-center m-4">
+            <div class="flex flex-col items-center justify-center bg-gradient-to-br from-blue-200 to-white rounded-lg">
+                <h1 className='font-semibold text-2xl pb-6'>My Skills</h1>
                 <div class="flex justify-evenly">
                     <div className="grid grid-cols-4 gap-3">
                       <div className="flex justify-center"><SiJavascript size={100} color={'Yellow'}/></div>

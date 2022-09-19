@@ -4,13 +4,13 @@ const AboutMe = () => {
   return (
     <div className="flex justify-center p-2">
       <div className = 'header bg-gradient-to-br from-blue-200 to-white flex flex-col items-center py-4 text-slate-800 shadow-lg rounded-lg justify-center pt-10'>
-          <div className="flex items-center">
+          <div className="flex items-center p-2">
             <p className='text-2xl font-semibold'>Hi, I'm Anthony</p>
           </div>
           <div className="flex-col /lg:flex-row items-center flex justify-center">
             <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-60 w-50' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
-              <p className="py-2 text-center mx-20 prose">
+              <p className="py-2 text-center mx-20 inline-block">
                 I'm an explorer at heart with a love for tech, travel, writing, and running.
                 I was a flight attendant for nearly a decade, but now I'm aspiring to work in a different kind of cloud! My interests
                 in the tech space are wide, but I am especially drawn to development across the full stack
