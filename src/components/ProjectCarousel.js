@@ -1,4 +1,3 @@
-
 import projects from "./projectlist"
 import { FaGithub } from "react-icons/fa"
 import { FiExternalLink } from "react-icons/fi"
@@ -24,7 +23,7 @@ export default function ProjectCarousel() {
  function createItemsForCarousel() {
   const processedProjects = projects.map(project => {
     return (
-      <div id={'item' + project.id.toString()} className="carousel-item w-full flex-col flex lg:flex-row justify-center gap-5 py-2">
+      <div id={'item' + project.id.toString()} className="carousel-item w-full flex-col lg:flex-row justify-center gap-5 py-2">
           <img src={project.imgURL} className="w-full" alt='alt'/>
           <div class="flex flex-col justify-center">
             <div class="flex justify-center gap-4">
@@ -40,8 +39,8 @@ export default function ProjectCarousel() {
  }
   
   return (
-  <div className>
-    <div class="flex justify-center p-10">
+  <div className='flex justify-center'>
+    <div class="flex md:flex-row justify-center w-3/4">
       <div className='flex flex-col w-full shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-br from-blue-200 to-white'>
       <div class="flex justify-center">
         <h1 className='font-semibold text-xl'>Some of my projects so far</h1>

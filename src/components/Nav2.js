@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
 export default function Nav() {
   return (
-    <div class="flex align-middle justify-center py-2 ">
+    <div class="flex align-middle justify-center py-2">
       <div class="flex justify-center align-middle">
-        <div className="flex justify-center rounded-md shadow-sm">
+        <div className="flex justify-center rounded-md shadow-lg bg-gradient from-blue-300 to-white">
           <Link to='/about'>
             <button
               type="button"

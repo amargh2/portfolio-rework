@@ -2,7 +2,7 @@ import { FaGithub, FaLink } from "react-icons/fa"
 import { FaLinkedin } from "react-icons/fa"
 export default function Footer() {
   return (
-    <div className='flex justify-center pt-10 pb-10 shadow-lg'>
+    <div className='flex justify-center pt-10 pb-10'>
       <div className='flex flex-col justify-center'>
         <p className='font-semibold prose-xl text-white'>Get In Touch!</p>
         <div className="flex justify-center">
