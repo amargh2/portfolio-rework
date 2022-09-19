@@ -8,14 +8,15 @@ import BlogPreview from './BlogPreview'
 
 export default function MainPage() {
   return(
-    <div class="bg-hero">
+    <div class="bg-cirrus object-fit">
       <div className="flex flex-col lg:mx-20 px-10">
-            <Nav/>
-              <AboutMe/>
-                <SkillsPanel/>
-                <ProjectCarousel/>
-                <SkillsPanelWide></SkillsPanelWide>
-              <Footer/>
+        <Nav/>
+        <div className='grid grid-cols-2'>
+          <AboutMe/>
+          <SkillsPanelWide/>
+        </div>
+        <ProjectCarousel/>
+        <Footer/>
       </div>
     </div>
     

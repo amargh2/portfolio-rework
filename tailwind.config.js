@@ -8,7 +8,8 @@ module.exports = {
       backgroundImage:{
         'cloud' : "url('./cloud7.png')",
         'sky': "url('../public/sky.png')",
-        'hero': "url('../public/hero-image.png')"
+        'hero': "url('../public/hero-image.png')",
+        'cirrus': "url('../public/background-2.jpg')"
       }
     },
   },

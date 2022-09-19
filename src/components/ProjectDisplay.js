@@ -23,7 +23,7 @@ const ProjectDisplay = () => {
   
   const processedProjects = projects.map(project => {
     return (
-      <div className="flex gap-2 max-w-lg flex-col m-1 justify-center bg-white p-2 shadow-lg rounded-md hover:ring-2">
+      <div className="flex gap-2 max-w-lg flex-col m-1 justify-center bg-gradient-to-br from-blue-200 to-white p-2 shadow-lg rounded-md hover:ring-2">
         <div className="flex justify-center"><img src={project.imgURL} className='h-80 w-full rounded-md'/></div>
         <div className="flex justify-between">
           <h3 className='font-semibold'>{project.name}</h3>
@@ -36,7 +36,7 @@ const ProjectDisplay = () => {
   
   return (
       <div className="flex justify-center">
-        <div className="flex justify-center w-3/4">
+        <div className="flex justify-center">
           <div className="grid justify-center py-4 grid-cols-1 gap-4 lg:grid-cols-3">
               {processedProjects}
           </div>

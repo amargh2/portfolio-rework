@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const HeroPage = () => {
   return (
     <div className="flex justify-center align-middle">
-      <div className="hero min-h-screen" style={{ backgroundImage: `url("/hero-image.png")` }}>
+      <div className="hero min-h-screen" style={{ backgroundImage: `url("/background-2.jpg")` }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
