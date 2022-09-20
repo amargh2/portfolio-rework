@@ -8,7 +8,7 @@ import carousel2 from "./carousel2";
 const ProjectPage = () => {
   return (
     <div className="bg-cirrus">
-      <div className="lg:grid grid-cols-10 flex justify-center flex-col mx-10">
+      <div className="lg:grid grid-cols-10 flex justify-center flex-col mx-2 lg:mx-10">
         <div class="col-span-full"><Nav/></div>
         <div class="col-start-2 col-span-8"><Blurb/></div>
         <div class="col-start-2 col-span-8 flex justify-center"><ProjectDisplay/></div>
