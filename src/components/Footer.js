@@ -6,7 +6,7 @@ export default function Footer() {
       <div className='flex flex-col justify-center'>
         <p className='font-semibold prose-xl text-white'>Get In Touch!</p>
         <div className="flex justify-center">
-          <a href="https:github.com/amargh2">
+          <a href="https://www.github.com/amargh2">
             <FaGithub size={35} color={'white'}/>
           </a>
           <a href="https://www.linkedin.com/in/anthony-margherio-26b26850/">

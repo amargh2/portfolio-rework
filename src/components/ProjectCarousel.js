@@ -23,9 +23,9 @@ export default function ProjectCarousel() {
  function createItemsForCarousel() {
   const processedProjects = projects.map(project => {
     return (
-      <div id={'item' + project.id.toString()} className="carousel-item w-full lg:flex-row flex flex-col items-center justify-center gap-5 py-2">
-          <img src={project.imgURL} className="w-1/2" alt='alt'/>
-            <div class="flex flex-col justify-center gap-4">
+      <div id={'item' + project.id.toString()} className="carousel-item w-full lg:flex-row flex flex-col items-center justify-center py-2">
+          <div className='flex justify-center'><img src={project.imgURL} className="w-2/3" alt='alt'/></div>
+            <div class="flex flex-col gap-4">
               <div class="flex justify-center">
                 <p className='font-semibold'>{project.name}</p>
                 {addLinks(project)}
