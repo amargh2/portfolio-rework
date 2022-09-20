@@ -23,31 +23,29 @@ export default function ProjectCarousel() {
  function createItemsForCarousel() {
   const processedProjects = projects.map(project => {
     return (
-      <div id={'item' + project.id.toString()} className="carousel-item w-full flex-col lg:flex-row justify-center gap-5 py-2">
-          <img src={project.imgURL} className="w-full" alt='alt'/>
-          <div class="flex flex-col justify-center">
-            <div class="flex justify-center gap-4">
-              <p className='font-semibold'>{project.name}</p>
-              {addLinks(project)}
+      <div id={'item' + project.id.toString()} className="carousel-item w-full lg:flex-row flex flex-col items-center justify-center gap-5 py-2">
+          <img src={project.imgURL} className="w-1/2" alt='alt'/>
+            <div class="flex flex-col justify-center gap-4">
+              <div class="flex justify-center">
+                <p className='font-semibold'>{project.name}</p>
+                {addLinks(project)}
+              </div>
+              <p className='px-3'>{project.description}</p>
             </div>
-              <p>{project.description}</p>
+              
           </div>
-      </div>
     )
   })
   return processedProjects
  }
   
   return (
-  <div className='flex justify-center'>
-    <div class="flex md:flex-row justify-center w-3/4">
-      <div className='flex flex-col w-full shadow-lg rounded-lg bg-white py-2 px-4 bg-gradient-to-br from-blue-200 to-white'>
+  
+      <div className='flex carousel flex-col shadow-lg rounded-lg bg-white bg-gradient-to-br from-blue-200 to-white'>
       <div class="flex justify-center">
-        <h1 className='font-semibold text-xl'>Some of my projects so far</h1>
+        <h1 className='font-semibold text-xl pb-2'>Some of my projects so far</h1>
       </div>
-        <div className="carousel h-80 w-full">
-          {createItemsForCarousel()}
-        </div>
+          <div class="carousel h-80">{createItemsForCarousel()}</div>
         <div className="flex justify-center w-full py-2 gap-2">
           <a href="#item1" className="btn bg-gradient-to-br from-cyan-200 to-red-200 btn-xs  text-slate-800">1</a>
           <a href="#item2" className="btn bg-gradient-to-br from-cyan-200 to-red-200 btn-xs  text-slate-800">2</a>
@@ -57,8 +55,6 @@ export default function ProjectCarousel() {
           <a href="#item6" className="btn bg-gradient-to-br from-cyan-200 to-red-200 btn-xs text-slate-800">6</a>
         </div>
       </div>
-    </div>
-  </div>
   )
 }
 
