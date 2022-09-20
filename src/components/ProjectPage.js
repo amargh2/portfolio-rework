@@ -7,11 +7,11 @@ import Footer from "./Footer";
 const ProjectPage = () => {
   return (
     <div className="bg-cirrus">
-      <div className="flex flex-col justify-center mx-10">
-        <Nav/>
-        <Blurb/>
-        <ProjectDisplay/>
-        <Footer/>
+      <div className="lg:grid grid-cols-10 flex justify-center flex-col mx-10">
+        <div class="col-span-full"><Nav/></div>
+        <div class="col-start-2 col-span-8"><Blurb/></div>
+        <div class="col-start-2 col-span-8 flex"><ProjectDisplay/></div>
+        <div class="col-span-full"><Footer/></div>
       </div>
     </div>
   )
