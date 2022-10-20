@@ -11,8 +11,11 @@ const Blurb = () => {
             <div className="flex w-1/2 justify-center"><img className='rounded-full md:h-60' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center">
-                I have been steadily improving my skills in development since November of 2021 and began studying full-stack JavaScript development with The Odin Project
-                full time in May of 2022. This section is a collection of some of my completed projects so far. Many more, including what I'm currently working on, can be found on my <a className='' href='https://www.github.com/amargh2'>GitHub!</a>
+                This section is a collection of some of my completed projects so far.
+                 Most of these projects are assignments from The Odin Project, an open sourced, self-paced online bootcamp curriculum that challenges
+                 learners to build their projects from scratch on their own based on requirements and expectations about how the applications should function.
+                It's been a really fun journey building these projects, googling bugs and working out the kinks of each. Right now, I'm working
+                on some ideas for more complex and interesting projects as I learn more back-end concepts.
               </p>
             </div>
           </div>

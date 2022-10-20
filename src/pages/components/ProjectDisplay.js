@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const ProjectDisplay = () => {
   
   const addLinks = (project) => {
-    if (project.name ==='Battleship' || project.name === 'Crystal Shop' || project.name === 'Message Board') {
+    if (project.link) {
       return (
         <div className ='flex'>
           <a href={project.link}><FiExternalLink size={22}/></a>
@@ -37,7 +37,7 @@ const ProjectDisplay = () => {
   return (
       <div className="flex justify-center">
         <div className="flex justify-center">
-          <div className="grid justify-center py-4 grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3">
+          <div className="grid justify-center py-4 grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-4">
               {processedProjects}
           </div>
         </div>

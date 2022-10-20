@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import ProjectPage from './components/ProjectPage';
-import HeroPage from './components/hero-page';
-import MainPage from './components/MainPage';
+import './App.css'
+import ProjectPage from './pages/ProjectPage';
+import HeroPage from './pages/hero-page';
+import MainPage from './pages/MainPage';
 
 import {
   createBrowserRouter,
