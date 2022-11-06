@@ -12,10 +12,9 @@ const Blurb = () => {
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center">
                 This section is a collection of some of my completed projects so far.
-                 Most of these projects are assignments from The Odin Project, an open sourced, self-paced online bootcamp curriculum that challenges
-                 learners to build their projects from scratch on their own based on requirements and expectations about how the applications should function.
-                It's been a really fun journey building these projects, googling bugs and working out the kinks of each. Right now, I'm working
-                on some ideas for more complex and interesting projects as I learn more back-end concepts.
+                 Most of these are assignments from <a href='https://www.theodinproject.com'>The Odin Project</a>, an open source, self-paced bootcamp curriculum that challenges
+                 learners to build their projects from scratch based on requirements and expectations about how the applications should function.
+                It's been awesome building these projects, googling concepts, bugs, and error messages, and learning new approaches and concepts with each project. Always updating!
               </p>
             </div>
           </div>
