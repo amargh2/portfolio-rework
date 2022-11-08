@@ -11,14 +11,11 @@ const AboutMe = () => {
             <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-60 w-50' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center mx-20 inline-block"> 
-                As a small town kid from central Illinois, I grew up wanting to see the world, and 
-                I have felt very lucky to do that as a flight attendant, English teacher, 
-                and solo backpacker. That said, a lot has changed since I first started my adventures as a 20-something. Somewhere in there I went vegan,
-                met my partner, rediscovered my passion for tech, and decided to take a break to build new routines and explore new interests.
-                These days, my ideal Friday night is spent watching a movie with my partner, playing a new video game, or going for a long run 
-                with a funny podcast or fantasy audiobook.
-                Coding and tech scratch my explorer's itch. There's always something
-                new to learn, and I'm enjoying the journey.
+                As a small town kid from central Illinois, I grew up wanting to see the world, and I feel very lucky to have done at least 
+                a little bit of that as a flight attendant, English teacher, and solo backpacker. I loved my time in the air, 
+                but now I'm ready to keep building new skills in a different kind of cloud! 
+                As a coworker you can count on me to stay curious, communicate and collaborate
+                with enthusiasm, and work problems calmly even under pressure and deadlines.
               </p>
             </div>
           </div>
