@@ -9,9 +9,6 @@ export default function Footer() {
           <a href="https://www.github.com/amargh2">
             <FaGithub size={35} color={'white'}/>
           </a>
-          <a href="https://www.linkedin.com/in/anthony-margherio-26b26850/">
-            <FaLinkedin size={35} color={'white'}/>
-          </a>
         </div>
       </div>
     </div>
