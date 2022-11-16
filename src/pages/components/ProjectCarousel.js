@@ -1,4 +1,4 @@
-import projects from "./projectlist"
+import projects from "./ProjectList"
 import { FaGithub } from "react-icons/fa"
 import { FiExternalLink } from "react-icons/fi"
 

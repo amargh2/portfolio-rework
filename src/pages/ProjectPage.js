@@ -1,6 +1,6 @@
-import ProjectDisplay from "./components/ProjectDisplay";
-import Nav from "./components/Nav2";
-import Blurb from './components/ProjectBlurb.js';
+import ProjectDisplay from "./components/ProjectGrid";
+import Nav from "./components/Nav";
+import Blurb from './components/ProjectIntroPanel.js';
 import Footer from "./components/Footer";
 
 const ProjectPage = () => {

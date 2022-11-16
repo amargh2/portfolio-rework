@@ -1,6 +1,6 @@
 import ProjectCarousel from './components/ProjectCarousel'
 import AboutMe from './components/AboutMe'
-import Nav from './components/Nav2'
+import Nav from './components/Nav'
 import Footer from './components/Footer'
 import SkillsPanelWide from './components/SkillsPanelWide'
 

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css'
 import ProjectPage from './pages/ProjectPage';
-import HeroPage from './pages/hero-page';
+import HeroPage from './pages/HeroPage';
 import MainPage from './pages/MainPage';
 
 import {

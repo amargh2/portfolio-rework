@@ -13,7 +13,7 @@ const SkillsPanelWide = () => {
             <div class="flex flex-col items-center justify-center bg-gradient-to-br from-blue-200 to-white rounded-lg shadow-lg">
                 <h1 className='font-semibold text-2xl pb-6'>My Skills</h1>
                 <div class="flex justify-evenly">
-                    <div className="grid grid-cols-4 gap-3">
+                    <div className="grid grid-cols-4 gap-3 p-2">
                       <div className="flex justify-center"><SiJavascript size={100} color={'Yellow'}/></div>
                       <div className="flex justify-center"><SiHtml5 size={100} color={'orange'}/></div>
                       <div className="flex justify-center"><SiCss3 size={100} color={'blue'}/></div>
