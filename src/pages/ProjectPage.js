@@ -1,9 +1,7 @@
 import ProjectDisplay from "./components/ProjectDisplay";
-import AboutMe from "./components/AboutMe";
 import Nav from "./components/Nav2";
 import Blurb from './components/ProjectBlurb.js';
 import Footer from "./components/Footer";
-import carousel2 from "./components/carousel2";
 
 const ProjectPage = () => {
   return (
