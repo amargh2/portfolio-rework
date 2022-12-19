@@ -11,11 +11,7 @@ const AboutMe = () => {
             <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-60 w-50' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center mx-20 inline-block"> 
-                As a small town kid from central Illinois, I grew up wanting to see the world, and I feel very lucky to have done at least 
-                a little bit of that as a flight attendant, English teacher, and solo backpacker. I loved my time in the air, 
-                but now I'm ready to keep building new skills in a different kind of cloud! 
-                As a coworker you can count on me to stay curious, communicate and collaborate
-                with enthusiasm, and work problems calmly even under pressure and deadlines.
+                I'm a highly curious and adaptable communicator looking to collaborate and build great stuff with great people.  When I'm not coding you can find me running semi-long distances, playing video games, or reading a fantasy novel. I'm excited by great documentation, clean and expressive code, and learning something new each day.
               </p>
             </div>
           </div>
