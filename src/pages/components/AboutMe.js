@@ -11,7 +11,10 @@ const AboutMe = () => {
             <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-60 w-50' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center mx-20 inline-block"> 
-                I'm a highly curious and adaptable communicator looking to collaborate and build great stuff with great people.  When I'm not coding you can find me running semi-long distances, playing video games, or reading a fantasy novel. I'm excited by great documentation, clean and expressive code, and learning something new each day.
+                I'm a highly curious and empathetic communicator looking to collaborate, learn and grow with a friendly and inclusive team.  
+                When I'm not coding or diving into some new topic of interest you can find me running, writing, playing the occasional video game, 
+                or reading a fantasy novel. I'm equally excited by infrastructure and code, and I'm especially motivated by 
+                creating a more interconnected and accessible world for everyone.
               </p>
             </div>
           </div>

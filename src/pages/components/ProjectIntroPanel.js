@@ -7,12 +7,17 @@ const Blurb = () => {
           <div className="flex items-center">
             <p className='text-2xl font-semibold'>My Work So Far</p>
           </div>
-          <div className="flex-col lg:flex-row items-center flex justify-center">
-            <div className="flex w-1/2 justify-center"><img className='rounded-full md:h-60' src='./mesmall.jpg' alt='me'></img></div>
+          <div className="flex-col items-center flex justify-center">
+            <div className="flex w-1/2 justify-center"><img className='rounded-full md:h-48' src='./mesmall.jpg' alt='me'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center">
-                This section is a collection of some of my completed projects so far.
-                 Most of these are assignments from <a href='https://www.theodinproject.com'>The Odin Project</a>, an open source bootcamp curriculum and community. When I started a year ago I knew basic HTML and some Python from my CCNA. Now, I feel comfortable building a simple full stack application from the ground up using a lot of different tools. There's so much more to learn and find out, but that's the exciting part!
+                This is a sample of some of the development projects I've made and deployed so far. Most of them are assignments from The Odin Project, 
+                an open source course and community centered on learning the MERN stack from scratch. It's been and continues to be a fun journey of learning, 
+                googling, and lots of reading and coding! While I am proud of my progress, 
+                I am constantly humbled and excited by how much there is to find out, ways I can improve, and all that I don't know.
+                I'm a big meditator and believer in beginner's mind, and I know from my time traveling that everyone has something to share and teach if 
+                we know how to listen. I'm always trying to perfect that art. Which is my flowery way of saying I am open to constructive criticism and
+                always looking for ways to be better, and I'd love to talk about it! 😉
               </p>
             </div>
           </div>

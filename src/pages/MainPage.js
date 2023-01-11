@@ -1,9 +1,8 @@
 import ProjectCarousel from './components/ProjectCarousel'
 import AboutMe from './components/AboutMe'
 import Nav from './components/Nav'
-import Footer from './components/Footer'
 import SkillsPanelWide from './components/SkillsPanelWide'
-
+import Footer from './components/Footer'
 export default function MainPage() {
   return(
     <div>
