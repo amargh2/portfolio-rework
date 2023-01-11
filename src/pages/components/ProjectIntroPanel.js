@@ -15,7 +15,7 @@ const Blurb = () => {
                 an open source course and community centered on learning the MERN stack from scratch. It's been and continues to be a fun journey of learning, 
                 googling, and lots of reading and coding! While I am proud of my progress, 
                 I am constantly humbled and excited by how much there is to find out, ways I can improve, and all that I don't know.
-                I'm a big meditator and believer in beginner's mind, and I know from my time traveling that everyone has something to share and teach if 
+                I'm a big meditator and believer in beginner's mind, and I know from my time as a flight attendant that everyone has something to share and teach if 
                 we know how to listen. I'm always trying to perfect that art. Which is my flowery way of saying I am open to constructive criticism and
                 always looking for ways to be better, and I'd love to talk about it! 😉
               </p>
