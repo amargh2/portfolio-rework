@@ -3,7 +3,7 @@ const projects = [
   gitHubLink:'https://github.com/amargh2/members-only-message-board',
   link:'https://the-discourse.onrender.com/',
   imgURL: './discourse.png',
-  description:'A full stack message board with user authentication, posts and replies, search, and a messaging system. I built this to learn more about Expresss routes and controllers and authentication.',
+  description:"A full stack message board with user authentication, posts and replies, search, and a messaging system. I built this to learn more about Expresss routes and controllers and authentication. Warning that it may load slowly if it hasn't been loaded by another user recently (Render's free service).",
   id:1
   },
   { name: 'Twitter Copy',
@@ -35,9 +35,9 @@ const projects = [
   },
   { name: 'Inventory Application',
     gitHubLink:'https://github.com/amargh2/inventory-app',
-    link: 'https://fantasy-inventory-app.herokuapp.com/catalog',
+    link: 'https://fantasy-inventory-app-9001.onrender.com',
     imgURL: './inventory-application.png',
-    description:'A simple application for tracking, updating, and deleting inventory items in a database. I built this to get a firmer grasp on the MVC pattern, CRUD operations with MongoDB and Mongoose, Express, and templating engines.',
+    description:"A simple application for tracking, updating, and deleting inventory items in a database. I built this to get a firmer grasp on the MVC pattern, CRUD operations with MongoDB and Mongoose, Express, and templating engines. Warning that it may load slowly if it hasn't been loaded by another user recently (Render's free service).",
     id:6
   },
   
