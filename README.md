@@ -1,2 +1,2 @@
 # Portfolio
-This is a portfolilo built using React. The page routing between pages is accomplished using React router and the app is bootstrapped with Create-React-App. It's styled with Tailwind and features some elements from Daisy-UI. I'm planning a major remodel and creating a back-end for a blog, but for now have a look at it in its current iteration at www.anthonymargherio.com!
+This is a portfolilo built using React. The page routing between pages is accomplished using React router and the app was bootstrapped with Create-React-App. It's styled with Tailwind and features some elements from Daisy-UI. I'm planning a major remodel and creating a back-end API for a blog, but for now have a look at it in its current iteration at www.anthonymargherio.com!
