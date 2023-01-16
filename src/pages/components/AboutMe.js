@@ -13,8 +13,7 @@ const AboutMe = () => {
               <p className="py-2 text-center mx-20 inline-block"> 
                 I'm a highly curious and empathetic communicator looking to collaborate, learn and grow with a friendly and inclusive team.  
                 When I'm not coding or diving into some new topic of interest you can find me running, writing, playing the occasional video game, 
-                or reading a fantasy novel. I'm equally excited by infrastructure and code, and I'm especially motivated by 
-                creating a more interconnected and accessible world for everyone.
+                or reading a fantasy novel.
               </p>
             </div>
           </div>
