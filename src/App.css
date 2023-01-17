@@ -5,4 +5,7 @@
 body {
   background-image: url('../public/background-2.jpg');
   background-size:cover;
+  font-family: 'Roboto', sans-serif;
+  color:black;
+  font-weight:200;
 }
