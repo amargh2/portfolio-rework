@@ -8,8 +8,8 @@ export default function MainPage() {
     <div>
       <div className="md:grid grid-cols-12 gap-3 lg:gap-2 flex flex-col mx-2">
         <div className='col-span-full row-start-1'><Nav/></div>
-        <div class="lg:col-start-3 md:col-start-1 lg:col-span-8 md:col-span-7 md:row-start-2"><AboutMe/></div>
-        <div class="lg:col-start-3 flex row-start-3 lg:col-span-8 md:col-start-1 md:col-span-full"><SkillsPanelWide/></div>
+        <div class="lg:col-start-3 flex md:col-start-1 lg:col-span-8 md:col-span-full md:row-start-2"><AboutMe/></div>
+        <div class="lg:col-start-3 flex row-start-3 lg:col-span-8 md:col-start-1 col-span-full md:col-span-full"><SkillsPanelWide/></div>
         <div class="lg:col-start-3 flex row-start-4 lg:col-span-8 md:col-start-1 md:col-span-full"><ProjectCarousel/></div>
       </div>
         <Footer/>
