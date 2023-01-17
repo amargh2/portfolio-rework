@@ -3,7 +3,7 @@ import React from "react"
 const AboutMe = () => {
   return (
     <div className="flex justify-center">
-      <div className = 'header bg-gradient-to-br from-blue-200 to-white flex flex-col items-center py-4 text-slate-800 shadow-lg rounded-lg justify-center pt-10'>
+      <div className = 'header bg-gradient-to-br from-blue-200 to-white flex flex-col items-center text-slate-800 shadow-lg rounded-lg justify-center'>
           <div className="flex items-center p-2">
             <p className='text-2xl font-semibold'>Hi, I'm Anthony</p>
           </div>
