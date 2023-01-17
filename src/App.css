@@ -6,6 +6,7 @@ body {
   background-image: url('../public/background-2.jpg');
   background-size:cover;
   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
   color:black;
-  font-weight:200;
+  font-size:.95rem;
 }

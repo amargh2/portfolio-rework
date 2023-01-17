@@ -14,17 +14,17 @@ const SkillsPanelWide = () => {
                 <h1 className='font-semibold text-2xl pb-6'>My Skills</h1>
                 <div class="flex justify-evenly">
                     <div className="grid grid-cols-4 gap-3 p-2">
-                      <div className="flex justify-center"><SiJavascript size={100} color={'Yellow'}/></div>
-                      <div className="flex justify-center"><SiHtml5 size={100} color={'orange'}/></div>
-                      <div className="flex justify-center"><SiCss3 size={100} color={'blue'}/></div>
+                      <div className="flex justify-center"><SiJavascript size={70} color={'Yellow'}/></div>
+                      <div className="flex justify-center"><SiHtml5 size={70} color={'orange'}/></div>
+                      <div className="flex justify-center"><SiCss3 size={70} color={'blue'}/></div>
                       <div className="flex justify-center"><img className='rounded-full h-32 w-50' src='./aplus.png' alt='me'></img></div>
                       <div className="flex justify-center"><img className='h-32 w-50' src='./ccna.png' alt='me'></img></div>
                       <div className="flex justify-center"><img className='h-32 w-50 rounded-full' src='./networkplus.png' alt='me'></img></div>
-                      <div className="flex justify-center"><SiReact size={100} color={'indigo'}/></div>
-                      <div className="flex justify-center"><SiTailwindcss size={100} color={'cyan'}/></div>
-                      <div className="flex justify-center"><SiNodedotjs size={100} color={'green'}/></div>
-                      <div className="flex justify-center"><FcLinux size={100} color={'green'}/></div>
-                      <div className="flex justify-center"><SiMongodb size={100} color={'green'}/></div>
+                      <div className="flex justify-center"><SiReact size={70} color={'indigo'}/></div>
+                      <div className="flex justify-center"><SiTailwindcss size={70} color={'cyan'}/></div>
+                      <div className="flex justify-center"><SiNodedotjs size={70} color={'green'}/></div>
+                      <div className="flex justify-center"><FcLinux size={70} color={'green'}/></div>
+                      <div className="flex justify-center"><SiMongodb size={70} color={'green'}/></div>
                     </div>
                 </div>
               </div>
