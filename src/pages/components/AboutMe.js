@@ -8,7 +8,7 @@ const AboutMe = () => {
             <p className='text-2xl font-semibold'>Hi, I'm Anthony</p>
           </div>
           <div className="flex-col /lg:flex-row items-center flex justify-center">
-            <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-60 w-50' src='./mesmall.jpg' alt='me'></img></div>
+            <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-48 w-50' src='./mesmall.jpg' alt='Picture of Anthony'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center mx-20 inline-block"> 
                 I'm a highly curious and empathetic communicator looking to collaborate, learn and grow with a friendly and inclusive team.  

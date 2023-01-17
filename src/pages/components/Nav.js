@@ -7,7 +7,7 @@ export default function Nav() {
           <Link to='/about'>
             <button
               type="button"
-              className="hover:bg-gradient-to-br hover:to-cyan-300 hover:from-red-300 rounded-l-lg bg-gradient-to-r from-blue-200 to-white py-2 w-36 hover:text-white font-medium"
+              className="hover:bg-gradient-to-br hover:to-cyan-300 hover:from-red-300 rounded-l-lg bg-gradient-to-r from-blue-200 to-white py-1 w-24 hover:text-white font-medium"
             >
               Home
             </button>
@@ -15,7 +15,7 @@ export default function Nav() {
           <Link to='/projects'>
             <button
               type="button"
-              className="hover:bg-gradient-to-br hover:to-cyan-300 hover:from-red-300 rounded-r-lg bg-gradient-to-r from-white to-blue-200 py-2 w-36 hover:text-white font-medium"
+              className="hover:bg-gradient-to-br hover:to-cyan-300 hover:from-red-300 rounded-r-lg bg-gradient-to-r from-white to-blue-200 py-1 w-24 hover:text-white font-medium"
             >
               Projects
             </button>
