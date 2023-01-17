@@ -15,7 +15,7 @@ const AboutMe = () => {
                 When I'm not coding or diving into some new topic of interest you can find me running, writing, playing the occasional video game, 
                 or reading a fantasy novel. I'm equally interested in infrastructure and code (and infrastructure-as-code), 
                 and my inner English major delights in great documentation. As a teammate you can count on me to collaborate
-                with enthusiasm and warmth while staying motivated and positive in the face of challenges.
+                with enthusiasm while staying positive in the face of challenges.
               </p>
             </div>
           </div>
