@@ -1,9 +1,9 @@
 const projects = [
   { name: 'The Discourse - Message Board',
   gitHubLink:'https://github.com/amargh2/members-only-message-board',
-  link:'https://the-discourse.onrender.com/',
+  link:'https://the-discourse-m8mcv.ondigitalocean.app/',
   imgURL: './discourse.png',
-  description:"A full stack message board with user authentication, posts and replies, search, and a messaging system. I built this to learn more about Expresss routes and controllers and authentication. Warning that it may load slowly if it hasn't been loaded by another user recently (Render's free service).",
+  description:"A full stack message board with user authentication, posts and replies, search, and a messaging system. I built this to learn more about Expresss routes and controllers and authentication.",
   id:1
   },
   { name: 'Twitter Copy',
