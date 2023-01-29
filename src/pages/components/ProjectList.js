@@ -30,7 +30,7 @@ const projects = [
     gitHubLink:'https://github.com/amargh2/weather-app-next',
     link: 'https://weather-app-9001.netlify.app/',
     imgURL: './weatherapp.png',
-    description:"A weather app that uses APIs from Mapbox and Open Weather Map. Built with Next.js, SASS, and my first time working with TypeScript.",
+    description:"A weather app that uses APIs from Mapbox and Open Weather Map. Built with Next.js and MUI, and my first time working with TypeScript.",
     id:5
   },
   { name: 'Inventory Application',
