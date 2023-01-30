@@ -15,7 +15,7 @@ const projects = [
   { name: 'Crystal Shop',
     link:'https://amargh-shopping-app.netlify.app/',
     gitHubLink: 'https://github.com/amargh2/shopping-app',
-    imgURL: './crystal-shop.jpg',
+    imgURL: './crystal-shop.png',
     description:"My first front end user interface with React. It includes a lot of interactive elements and buttons and I styled it with TailwindCSS.",
     id:3
   },
