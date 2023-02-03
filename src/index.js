@@ -5,7 +5,7 @@ import './App.css'
 import ProjectPage from './pages/ProjectPage';
 import HeroPage from './pages/HeroPage';
 import MainPage from './pages/MainPage';
-
+import AboutMePage from './pages/AboutMePage';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -26,7 +26,7 @@ const router = createBrowserRouter( [
   },
   {
     path:'/about',
-    element:<MainPage/>
+    element:<AboutMePage/>
   },
   {
     path: '/blog',
