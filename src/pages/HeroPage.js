@@ -12,7 +12,7 @@ const HeroPage = () => {
             </div>
             <h1 className="mb-5 text-5xl font-bold">Hi there, I'm Anthony</h1>
             <p className="mb-5">I'm an explorer at heart with a love for tech, travel, writing, and running.</p>
-            <Link to='/home'><button className="hover:bg-gradient-to-br hover:to-cyan-300 hover:from-red-300 rounded bg-gradient-to-tr from-cyan-300 to-red-300 p-4">Come On In</button></Link>
+            <Link to='/home'><button className="hover:bg-gradient-to-br hover:to-cyan-500 hover:from-indigo-500 rounded bg-gradient-to-tr from-indigo-500 to-cyan-500 p-4">Come On In</button></Link>
           </div>
         </div>
       </div>
