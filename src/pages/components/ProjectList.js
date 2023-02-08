@@ -39,7 +39,7 @@ const projects = [
     gitHubLink:'https://github.com/amargh2/inventory-app',
     link: 'https://jellyfish-app-hkfa5.ondigitalocean.app/',
     imgURL: './fantasy-shop-updated.png',
-    description:"A simple application for tracking, updating, and deleting inventory items in a database. I built this to get a firmer grasp on the MVC pattern, CRUD operations with MongoDB and Mongoose, Express, and templating engines. Warning that it may load slowly if it hasn't been loaded by another user recently (Render's free service).",
+    description:"A simple application for tracking, updating, and deleting inventory items in a database. I built this to get a firmer grasp on the MVC pattern, CRUD operations with MongoDB and Mongoose, Express, and templating engines.",
     id:6
   },
   
