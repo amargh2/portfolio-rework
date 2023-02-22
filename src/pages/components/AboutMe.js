@@ -12,7 +12,7 @@ const AboutMe = () => {
             <div className="flex w-3/4 justify-center"><img className='aspect-auto rounded-full h-48 w-50' src='./mesmall.jpg' alt='Picture of Anthony'></img></div>
             <div className="flex gap-2 justify-center items-center flex-col">
               <p className="py-2 text-center mx-10 inline-block"> 
-                I'm a highly curious and adaptable communicator looking to create value, collaborate, and learn with a friendly and inclusive team.  
+                I'm a highly curious and adaptable communicator who loves learning.  
                 When I'm not coding or diving into some new topic of interest you can find me running, writing, playing the occasional video game, 
                 or reading a fantasy novel. I'm interested in infrastructure and code (and infrastructure-as-code), 
                 and my inner English major delights in great documentation. As a teammate you can count on me to collaborate

@@ -12,18 +12,10 @@ export default function Nav() {
               Home
             </button>
           </Link>
-          <Link to='/about'>
-          <button
-              type="button"
-              className="hover:bg-gradient-to-br hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-tr from-blue-200 to-white py-1 w-24 hover:text-white font-medium"
-            >
-              About
-            </button>
-          </Link>
           <Link to='/projects'>
             <button
               type="button"
-              className="hover:bg-gradient-to-br hover:to-indigo-500 hover:from-cyan-300 rounded-r-lg bg-gradient-to-br from-white to-blue-200 py-1 w-24 hover:text-white font-medium"
+              className="hover:bg-gradient-to-br hover:to-indigo-500 hover:from-cyan-300 bg-gradient-to-tr rounded-r-lg from-blue-200 to-white py-1 w-24 hover:text-white font-medium"
             >
               Projects
             </button>
